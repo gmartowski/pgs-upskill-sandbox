@@ -1,3 +1,4 @@
+import "./canvas";
 
 // Geolocation API
 navigator.geolocation.getCurrentPosition((position) => {
@@ -23,6 +24,6 @@ navigator.geolocation.getCurrentPosition((position) => {
     });
 
     document.getElementById('link').setAttribute('href', `https://www.openstreetmap.org/#map=18/${position.coords.latitude}/${position.coords.longitude}`)
+
+    callCanvas();
 });
-
-
