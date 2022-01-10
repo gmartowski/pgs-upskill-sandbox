@@ -12,4 +12,6 @@ function closureFunction(){
     }
 }
 
-console.log(closureFunction());
+const test = closureFunction();
+console.log(test);
+
