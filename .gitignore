@@ -1,3 +1,4 @@
 .idea
 .parcel-cache
 vanilla-js/dist
+node_modules
